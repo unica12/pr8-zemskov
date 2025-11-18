@@ -1,0 +1,40 @@
+name: firebase_notes_app
+description: "A Flutter app for managing notes with Firebase."
+
+publish_to: 'none' # Private package
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase dependencies
+  firebase_core: ^3.15.2
+  cloud_firestore: ^5.6.10
+
+  # Cupertino icons for iOS style
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets can be added here
+  # assets:
+  #   - assets/images/
+
+  # Fonts can be added here
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
