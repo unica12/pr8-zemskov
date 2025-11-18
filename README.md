@@ -32,7 +32,6 @@
 
 6. Краткий отчет 
 
-```
 # Отчет по проекту Firebase Notes App
 
 ## Настройка Firebase проекта
@@ -45,7 +44,8 @@
 ## Техническая реализация
 
 ### Зависимости проекта (`pubspec.yaml`)
-```yaml
+
+```
 dependencies:
   flutter:
     sdk: flutter
@@ -56,7 +56,8 @@ dependencies:
 
 ### Инициализация Firebase
 Инициализация выполнена в `main.dart`:
-```dart
+
+```
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -81,7 +82,7 @@ void main() async {
 **Коллекция:** `notes`
 
 **Поля документа:**
-```json
+```
 {
   "text": "string",
   "created_at": "timestamp",
@@ -128,4 +129,9 @@ service cloud.firestore {
 - Реализовать разделение данных по пользователям
 - Добавить категории и теги для заметок
 - Реализовать поиск и фильтрацию заметок
-```
+
+
+видео : 
+<img width="921" height="847" alt="Снимок экрана 2025-11-18 в 3 22 54 PM" src="https://github.com/user-attachments/assets/21d5fa5f-676b-458b-b600-c630e08e96f2" />
+
+
