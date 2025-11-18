@@ -132,6 +132,7 @@ service cloud.firestore {
 
 
 видео : 
-<img width="921" height="847" alt="Снимок экрана 2025-11-18 в 3 22 54 PM" src="https://github.com/user-attachments/assets/21d5fa5f-676b-458b-b600-c630e08e96f2" />
+
+[Uploading Запись экрана 2025-11-18 в 3.22.19 PM.zip…]()
 
 
